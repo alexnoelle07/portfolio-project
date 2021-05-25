@@ -28,6 +28,7 @@ p {
     line-height: 30px;
 }
 img {
+    border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -66,14 +67,34 @@ img {
     border: 1px solid var(--branding-color);
     color: var(--branding-color);
 }
+.about-section {
+    padding: 80px 20px;
+}
+.about-section-content {
+    margin: 30px;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
 .project-description {
     padding: 120px 60px;
+}
+.alex {
+    max-width: 300px;
+    max-height: auto;
 }
 
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
-        line-height: 2;
+        line-height: 56px;
     }
     h2 {
         font-size: 44px;
@@ -81,5 +102,9 @@ img {
     .project-description {
         padding: 0;
         text-align: center;
+    }
+    .about-section {
+        text-align: center;
+        padding: 0;
     }
 }
