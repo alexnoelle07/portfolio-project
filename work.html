@@ -20,15 +20,15 @@
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="/">
+            <a href="/" title="Homepage">
                 <img src="images/black-rose.png" class="logo d-none d-md-block" alt="" />
-                <img src="images/black-rose-small.png" class="logo-small d-block d-md-none" alt="" />
+                <img src="images/black-rose-small.png" class="logo-small d-block d-md-none" alt="Black-rose logo" />
             </a>
             <ul>
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/work.html">Work</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/" title="Homepage">Home</a></li>
+                <li><a href="/about.html" title="About Alex">About</a></li>
+                <li class="active"><a href="/work.html" title="Alex's Work">Work</a></li>
+                <li><a href="/contact.html" title="Contact Alex">Contact</a></li>
             </ul>
     
         </nav>
@@ -61,6 +61,29 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div><a href="/contact.html" class="btn btn-branding mt-4" title="Contact Page">Contact me</a></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="mailto:alexnoellephotos@gmail.com" class="email-link mb-5"
+                    title="Email Alex">alexnoellephotos@gmail.com</a>
+            </div>
+            <div class="social-links text-center">
+                <a href="https://www.instagram.com/codewordalex" title="Instagram Profile"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/alexnoelle07" title="Github Profile"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alexandra-rivera-b9b368199/" title="Linkedin Profile"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-center mt-5">This site was coded by Alex Noelle, and it is <a
+                    href="https://github.com/alexnoelle07/portfolio-project" title="Github project"
+                    target="_blank">open-sourced</a>
+            </p>
+        </footer>
     </div>
 </body>
 </html>

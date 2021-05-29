@@ -21,7 +21,7 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -38,7 +38,7 @@ img {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -71,7 +71,7 @@ img {
     color: var(--branding-color);
 }
 .content-container {
-    padding: 80px 20px;
+    padding: 60px 20px;
     
 }
 .content {
@@ -183,7 +183,7 @@ footer .contact-box p {
     h2 {
         font-size: 44px;
     }
-    h4 {
+    h3 {
         font-size: 26px;
     }
     .project-description {
@@ -193,9 +193,6 @@ footer .contact-box p {
     .content {
         text-align: center;
         padding: 0;
-    }
-    .hero {
-        padding: 80px 20px;
     }
     
 }
