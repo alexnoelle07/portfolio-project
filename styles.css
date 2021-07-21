@@ -70,6 +70,12 @@ img {
     border: 1px solid var(--branding-color);
     color: var(--branding-color);
 }
+.current-work h3{
+    color: black;
+}
+.current-work h3:hover {
+    color:rgb(6, 54, 14)
+}
 .content-container {
     padding: 60px 20px;
     
