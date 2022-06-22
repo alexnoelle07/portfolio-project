@@ -30,6 +30,10 @@ p {
     font-weight: normal;
     line-height: 30px;
 }
+
+.project p {
+    font-size: 30px;
+}
 img {
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -51,7 +55,7 @@ img {
 .hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
-    font-size: 24px;
+    font-size: 50px;
     line-height: 1.5;
 }
 .btn-branding {
@@ -127,7 +131,7 @@ nav {
 
 }
 nav li {
-    display: inline;
+    display: inline-block;
     list-style: none;
     line-height: 100px;
     margin-left: 15px;
@@ -147,14 +151,30 @@ nav a:hover,
 nav li.active a {
     color: var(--branding-color);
 }
+.name {
+    font-size: 30px;
+    line-height: 100px;
+}
+
 footer {
     margin: 60px 0px;
+}
+
+.media-link {
+  text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;  
+}
+
+.media-link:hover {
+    color: var(--branding-color);
 }
 footer .email-link {
     text-decoration: none;
     color: black;
     font-size: 24px;
-    text-align: center;
+    text-align: center;  
 }
 footer .email-link:hover {
     color: var(--branding-color);
