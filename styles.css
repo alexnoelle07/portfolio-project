@@ -36,13 +36,13 @@ p {
 }
 img {
     border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
 }
 
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 80px 20px;
+    padding: 60px 20px 30px 20px;
 }
 
 .hero p {
@@ -55,7 +55,7 @@ img {
 .hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.5;
 }
 .btn-branding {
@@ -116,6 +116,15 @@ img {
     max-height: auto;
     
 }
+p .about-me {
+    font-weight: 600;
+}
+p .about-why {
+    font-weight: 600;
+}
+p .about-more {
+    font-weight: 600;
+}
 .logo {
     max-height: 100px;
     box-shadow: none;
@@ -154,6 +163,10 @@ nav li.active a {
 .name {
     font-size: 30px;
     line-height: 100px;
+}
+.resume {
+    display: block;
+    margin: auto;
 }
 
 footer {
@@ -228,4 +241,68 @@ footer .contact-box p {
     footer .email-link {
         font-size: 16px;
     }
+}
+
+@media (max-width: 540px) {
+    div .row {
+        display: inline;
+        
+    }
+    .name {
+        font-size: 18px;
+    }
+    
+}
+
+
+a .short-name { display: none; }
+a .one-name { display: none; }
+
+@media (max-width: 450px) {
+    a .short-name { display: inline-block; }
+    a .full-name { display: none; }
+
+    nav {
+        font-size: 16px;
+    }
+    .hero h2 {
+        font-size: 20px;
+        
+    }
+    .hero {
+        padding: 50px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    a .one-name { display: inline-block; }
+    a .full-name { display: none; }
+    a .short-name { display: none; }
+
+    nav {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 280px) {
+    h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+        padding: 0;
+    }
+    
 }
