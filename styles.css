@@ -126,24 +126,15 @@ p .about-why {
 p .about-more {
     font-weight: 600;
 }
-.logo {
-    max-height: 100px;
-    box-shadow: none;
-}
-.logo-small {
-    max-height: 50px;
-    box-shadow: none;
-    line-height: 100px;
-    margin-top: 20px;
-}
+
 nav {
     
     background-color: #fff;
     
 
 }
-nav .navbar {
-
+nav .name {
+    margin-left: 20px;
 }
 nav li {
     display: inline-block;
@@ -173,6 +164,16 @@ nav li.active a {
 .name {
     font-size: 30px;
     line-height: 100px;
+}
+.case-study {
+    margin-top: 150px;
+}
+.case-study img {
+    max-width: 400px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .resume {
     display: block;
@@ -291,6 +292,9 @@ a .one-name { display: none; }
 
     nav {
         font-size: 14px;
+    }
+    nav .name {
+        margin-left: 10px;
     }
 }
 
