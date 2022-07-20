@@ -108,7 +108,7 @@ img {
     font-family: var(--default-font-family);
 }
 .project-description {
-    padding: 10px 60px;
+    padding: 30px 60px;
 }
 .alex {
     
@@ -137,6 +137,10 @@ p .about-more {
 }
 nav {
     padding: 20px 0;
+    background-color: #fff;
+
+}
+nav .navbar {
 
 }
 nav li {
@@ -144,7 +148,7 @@ nav li {
     list-style: none;
     line-height: 100px;
     margin-left: 15px;
-    
+    color: #292929;
 }
 nav ul {
     padding: 0;
@@ -152,13 +156,17 @@ nav ul {
 }
 nav a {
     text-decoration: none;
-    color: #272142;
+    color: #292929;
     transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
     color: var(--branding-color);
+}
+
+.navbar {
+    color: #292929;
 }
 .name {
     font-size: 30px;
@@ -245,7 +253,7 @@ footer .contact-box p {
 
 @media (max-width: 540px) {
     div .row {
-        display: inline;
+        display: inline-block;
         
     }
     .name {
