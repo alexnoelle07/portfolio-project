@@ -42,7 +42,8 @@ img {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 60px 20px 30px 20px;
+    margin-top: 80px;
+    padding: 90px 20px 10px 20px;
 }
 
 .hero p {
@@ -136,8 +137,9 @@ p .about-more {
     margin-top: 20px;
 }
 nav {
-    padding: 20px 0;
+    
     background-color: #fff;
+    
 
 }
 nav .navbar {
@@ -278,7 +280,7 @@ a .one-name { display: none; }
         
     }
     .hero {
-        padding: 50px 10px 10px 10px;
+        padding: 90px 10px 5px 10px;
     }
 }
 
