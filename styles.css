@@ -139,7 +139,7 @@ nav .name {
 nav li {
     display: inline-block;
     list-style: none;
-    line-height: 100px;
+    line-height: 30px;
     margin-left: 15px;
     color: #292929;
 }
