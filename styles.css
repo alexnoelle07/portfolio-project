@@ -40,14 +40,17 @@ img {
 }
 
 .speachy {
-    padding: 124px 214px;
+    max-width: 200px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-bottom: 30px;
 }
 
 .hero {
     background: var(--secondary-color);
     text-align: center;
     margin-top: 80px;
-    padding: 60px 20px 10px 20px;
+    padding: 90px 20px 10px 20px;
 }
 
 .hero p {
