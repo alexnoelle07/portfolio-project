@@ -47,7 +47,7 @@ img {
     background: var(--secondary-color);
     text-align: center;
     margin-top: 80px;
-    padding: 90px 20px 10px 20px;
+    padding: 60px 20px 10px 20px;
 }
 
 .hero p {
@@ -90,7 +90,8 @@ img {
     
 }
 .content {
-    margin: 30px;
+    margin-top: 120px;
+    margin-left: 30px;
 }
 
 .content h1 {
