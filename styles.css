@@ -35,8 +35,12 @@ p {
     font-size: 30px;
 }
 img {
-    border-radius: 5px;
+    border-radius: 8px;
    
+}
+
+.speachy {
+    padding: 124px 214px;
 }
 
 .hero {
@@ -159,21 +163,31 @@ nav li.active a {
 }
 
 .navbar {
-    color: #292929;
+    color: #292929
+    position: fixed;
 }
 .name {
     font-size: 30px;
     line-height: 100px;
 }
 .case-study {
-    margin-top: 150px;
+    margin-top: 160px ;
+    text-align: center;
 }
 .case-study img {
     max-width: 400px;
-    padding-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.case-study-text {
+    background-color: rgb(252, 240, 226);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: left;
 }
 .resume {
     display: block;
