@@ -41,7 +41,7 @@ img {
 
 .olive {
     border: 1px solid #354d3f;
-    
+
 }
 
 .hero {
@@ -192,6 +192,7 @@ nav li.active a {
     text-align: left;
 }
 .resume {
+    padding-top: 60px;
     display: block;
     margin: auto;
 }
