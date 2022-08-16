@@ -39,11 +39,9 @@ img {
    
 }
 
-.speachy {
-    max-width: 200px;
-    margin-top: 100px;
-    margin-left: 120px;
-    margin-bottom: 30px;
+.olive {
+    border: 1px solid #354d3f;
+    
 }
 
 .hero {
@@ -256,6 +254,7 @@ footer .contact-box p {
         font-size: 26px;
     }
     .project-description {
+        margin-top: 20px;
         padding: 0;
         text-align: center;
     }
