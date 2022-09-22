@@ -43,6 +43,9 @@ img {
     width: 700px;
 
 }
+.olive-logo {
+    width: 700px;
+}
 
 .hero {
     background: var(--secondary-color);
@@ -100,7 +103,7 @@ img {
 }
 .content {
     margin-top: 120px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .content h1 {
