@@ -47,6 +47,30 @@ img {
     width: 700px;
 }
 
+.bh {
+    width: 700px;
+}
+.bin {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.board {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.standing {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.planter {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
