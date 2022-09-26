@@ -55,6 +55,11 @@ img {
     margin: 0 auto;
     width: 600px;
 }
+.cardsort {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
 .board {
     display: block;
     margin: 0 auto;
@@ -70,7 +75,11 @@ img {
     margin: 0 auto;
     width: 700px;
 }
-
+.sitemap {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
