@@ -80,6 +80,11 @@ img {
     margin: 0 auto;
     width: 800px;
 }
+.testing {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
